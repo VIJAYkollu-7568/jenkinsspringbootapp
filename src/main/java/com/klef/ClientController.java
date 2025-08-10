@@ -22,4 +22,9 @@ public class ClientController
 	public String test() {
 		return "Deploy Spring boot using jenkins Tool";
 	}
+	
+	@GetMapping("/test1")
+	public String test1() {
+		return "deploy success";
+	}
 }
